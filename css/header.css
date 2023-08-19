@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header part css start */
+.header {
+  background: #7335b7;
+  border-bottom-right-radius: 350px;
+}
+
+/* header part css end */
+
+/* navbar part css start */
+.navbar {
+  padding: 10px 15px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px 25px;
+  transition: all .4s;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  background: #fff;
+  color: #000;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+.nav .nav-item .nav-link {
+  background: #f8842b;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 25px;
+  transform: translateY(2px);
+  transition: all .4s;
+}
+
+.nav .nav-item .nav-link:hover {
+  transform: translateY(-2px);
+}
+
+/* navbar part css end */
+
+/* slider part css start */
+.slider {
+  padding: 100px 0;
+  height: 92.8vh;
+}
+
+.slider .carousel-indicators {
+  bottom: -90px;
+  align-items: center;
+}
+
+.slider .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 1;
+}
+
+.slider .carousel-indicators .active {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #f8842b;
+}
+
+.slider .slider_text {
+  text-align: center;
+}
+
+.slider .slider_text h4 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.slider .slider_text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.slider .slider_btn {
+  margin-top: 45px;
+}
+
+.slider .slider_btn a {
+  display: inline-block;
+  padding: 12px 35px;
+  background: #5a2a8f;
+  color: #fff;
+  border-radius: 5px;
+  transform: translateY(2px);
+  transition: all .4s;
+}
+
+.slider .slider_btn a:hover {
+  transform: translateY(-2px);
+}
+
+/* banner part css end */
