@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* main part css start */
+
+/* common heading part css start */
+.common_head_content {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.common_head_content h4 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+}
+
+.common_head_content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+/* common heading part css end */
+
+/* service part css start */
+.service {
+  padding: 100px 0;
+}
+
+.service_card {
+  color: #000;
+  border-radius: 10px;
+  padding: 25px 0;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25);
+
+  position: relative;
+  overflow: hidden;
+  transition: all .4s;
+}
+
+.service_card::before {
+  content: "";
+  width: 250px;
+  height: 250px;
+  background: #faf8fd;
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: -32%;
+  right: -32%;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.service_card:hover::before {
+  transform: scale(5);
+  background: #7335b7;
+}
+
+.service_card:hover .img_box img,
+.service_card:hover .detail_box {
+  filter: invert(1);
+}
+
+.service_card .img_box {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.service_card .img_box img {
+  width: 95px;
+}
+
+.service_card .detail_box {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.service_card .detail_box h4 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+}
+
+.service_card .detail_box p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.service_card .detail_box a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.service .service_btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.service .service_btn a {
+  display: inline-block;
+  padding: 12px 45px;
+  background: #7335b7;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 16px;
+
+  transform: translateY(2px);
+  transition: all .4s;
+}
+
+.service .service_btn a:hover {
+  transform: translateY(-2px);
+}
+
+/* service part css end */
+
+/* about part css start */
+.about {
+  background: #7335b7;
+  padding: 90px 0;
+  border-top-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+}
+
+.about .about_text h4 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about .about_text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.about .about_btn {
+  margin-top: 35px;
+}
+
+.about .about_btn a {
+  display: inline-block;
+  padding: 10px 45px;
+  background: #f8842b;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 16px;
+
+  transform: translateY(2px);
+  transition: all .4s;
+}
+
+.about .about_btn a:hover {
+  transform: translateY(-2px);
+}
+
+/* about part css end */
+
+/* study part css start */
+.case {
+  padding: 100px 0;
+}
+
+.case .card {
+  border-radius: 0px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+  text-align: center;
+}
+
+.case .card .card-body {
+  padding: 15px 20px;
+}
+
+.case .card img {
+  border-radius: 0;
+}
+
+.case .card h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  transition: all .4s;
+}
+
+.case .card:hover h4 {
+  color: #7335b7;
+}
+
+.case .card p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #000;
+}
+
+.case .card a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7335b7;
+}
+
+/* study part css end */
+
+/* main part css end */
