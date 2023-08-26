@@ -220,4 +220,237 @@ a {
 
 /* study part css end */
 
+/* testimonial part css start */
+.testimonial {
+  padding-bottom: 100px;
+}
+
+.testimonial .common_head_content {
+  margin-bottom: 0;
+}
+
+.testimonial .carousel-item {
+  text-align: center;
+}
+
+.testimonial .carousel-item img {
+  transform: translateY(85px);
+  border-radius: 50%;
+}
+
+.testimonial .carousel-item .carousel-text {
+  background: #7335b7;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+}
+
+.testimonial .carousel-item .carousel-text h4 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+}
+
+.testimonial .carousel-item .carousel-text h5 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #f8842b;
+}
+
+.testimonial .carousel-item .carousel-text i {
+  font-size: 33px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.testimonial .carousel-item .carousel-text p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.testimonial .carousel-indicators {
+  bottom: -90px;
+  align-items: center;
+}
+
+.testimonial .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #7335b7;
+  opacity: 1;
+}
+
+.testimonial .carousel-indicators .active {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #f8842b;
+}
+
+/* testimonial part css end */
+
+/* contact part css start */
+.contact {
+  padding: 90px 0;
+}
+
+.contact_form {
+  padding-right: 30px;
+}
+
+.contact_form h4 {
+  font-weight: 700;
+  font-size: 33px;
+  margin-bottom: 50px;
+}
+
+.contact_form input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  color: #000;
+  border: 1px solid #a5a5a5;
+  border-radius: 0px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contact_form #message {
+  resize: none;
+  width: 100%;
+  height: 120px;
+  color: #000;
+  background: transparent;
+  border: 1px solid #a5a5a5;
+  border-radius: 0px;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contact_form button {
+  padding: 10px 65px;
+  color: #fff;
+  background: #7335b7;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transform: translateY(2px);
+  transition: all .4s;
+}
+
+.contact_form button:hover {
+  transform: translateY(-2px);
+}
+
+/* contact part css end */
+
 /* main part css end */
+
+/* footer part css start */
+.footer {
+  background: #7335b7;
+  padding: 90px 0;
+  border-top-left-radius: 300px;
+}
+
+/* footer content part start */
+.ftr_content .ftr_head {
+  font-weight: 600;
+  font-size: 33px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.ftr_content .ftr_info p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.ftr_content .ftr_link {
+  padding: 0 40px;
+}
+
+.ftr_content .ftr_link a {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.ftr_content .ftr_link a:hover {
+  color: #f8842b;
+}
+
+.ftr_content .ftr_membership .sub input {
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.ftr_content .ftr_membership .sub input::placeholder {
+  color: #fff;
+}
+
+.ftr_content .ftr_membership .sub button {
+  width: 100%;
+  color: #fff;
+  background: #f8842b;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  padding: 12px 0;
+  margin-top: 20px;
+  transform: translateY(2px);
+  transition: all .4s;
+}
+
+.ftr_content .ftr_membership .sub button:hover {
+  transform: translateY(-2px);
+}
+
+.ftr_content .ftr_membership .sub button:focus {
+  border: none;
+}
+
+.ftr_content .ftr_address {
+  padding: 0 40px;
+}
+
+.ftr_content .ftr_address a {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.ftr_content .ftr_address a span {
+  padding-left: 10px;
+}
+
+.ftr_content .ftr_address a:hover {
+  color: #f8842b;
+}
+
+/* footer content part end */
+
+/* footer part css end */
